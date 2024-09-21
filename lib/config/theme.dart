@@ -64,7 +64,6 @@ class MaterialTheme {
   ///
   /// The [ColorScheme] is used to determine the colors of the theme.
   ///
-  /// The [scaffoldBackgroundColor] and [canvasColor] are set to the
   /// [ColorScheme.surface] color.
   ThemeData theme(ColorScheme colorScheme) => ThemeData(
         useMaterial3: true,
