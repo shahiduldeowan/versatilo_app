@@ -1,5 +1,5 @@
 class StringConstants {
   const StringConstants._();
 
-  static const String appName = "Versatilo";
+  static const String appName = 'Versatilo';
 }
