@@ -1,5 +1,3 @@
-import 'package:package_info_plus/package_info_plus.dart';
-
 import '../model/package_info_model.dart';
 
 abstract class PackageInfoService {
@@ -9,14 +7,12 @@ abstract class PackageInfoService {
 class PackageInfoServiceImpl implements PackageInfoService {
   @override
   Future<PackageInfoModel> getInfo() async {
-    final packageInfo = await PackageInfo.fromPlatform();
-
-    return PackageInfoModel(
-      appName: packageInfo.appName,
-      packageName: packageInfo.packageName,
-      version: packageInfo.version,
-      buildNumber: packageInfo.buildNumber,
-      buildSignature: packageInfo.buildSignature,
+    return const PackageInfoModel(
+      appName: '1.0.0',
+      packageName: '1.0.0',
+      version: '1.0.0',
+      buildNumber: '1.0.0',
+      buildSignature: '1.0.0',
     );
   }
 }
