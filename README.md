@@ -12,6 +12,7 @@ A Flutter project that implements a custom bottom navigation bar with animations
   - [Implementation Details](#implementation-details)
   - [Example Use Cases](#example-use-cases)
   - [Screenshots](#screenshots)
+  - [Download](#download)
 
 ## Features
 
@@ -31,7 +32,7 @@ A Flutter project that implements a custom bottom navigation bar with animations
 
 To get started with the project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/shahiduldeowan/versatilo_app`
+1. Clone the repository: `git clone https://github.com/shahiduldeowan/versatilo_app.git`
 2. Install the dependencies: `flutter pub get`
 3. Run the app: `flutter run`
 
@@ -53,3 +54,9 @@ The project also uses the `get_it` package for dependency injection and the `shi
 ## Screenshots
 
 ![Bottom Navigation Bar Screenshot](screenshot.jpeg)
+
+## Download
+
+You can download the APK directly via the following link:
+
+[Direct Download](https://drive.usercontent.google.com/download?id=1vQB2N97YRRQcAr2eGWvewp7CtBmnz8w1&export=download&authuser=0&confirm=t&uuid=b502233d-0eec-4f61-8d0f-7d1e8bf096a7&at=AO7h07eNCMA4yadKCAHHBadcsfqR:1726910441884)
